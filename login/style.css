@@ -1,0 +1,68 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo (body) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo para a div que envolve o formulário */
+.login {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para o formulário */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilo para os campos de entrada */
+.login-form input[type='text'],
+.login-form input[type='password'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão de envio */
+.login-form button[type='submit'] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Estilo para a mensagem abaixo do formulário */
+.mensagem {
+    margin-top: 10px;
+}
+
+/* Estilo para o link "Cadastre-se" */
+.mensagem a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.mensagem a:hover {
+    text-decoration: underline;
+}
